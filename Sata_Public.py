@@ -1,4 +1,4 @@
-print("Hi my name is Sata (Version 0.26, Main Public Edition.), What command would you like to insert?")
+print("Hi my name is Sata (Version 0.31, Main Special Edition.), What command would you like to insert?")
 print("calculator) 31123")
 print("timer) 209135")
 print("statistics) 192012019")
@@ -91,8 +91,11 @@ match number:
                 print("please insert an D")
                 D = int(input())
                 print(statistics.mean([A, B, C, D]))
-print = ("Oh well i've finished my job")
-print = ("Do you want to exit? (Y)")
-Exit = int(input())
-if Exit == Y:
-    exit
+import time
+time.sleep(1.5) 
+print("Oh well i've finished my job")
+time.sleep(1.5) 
+print("Do you want to exit? (Y/N)")
+Exit = input()
+if Exit.upper() == 'Y' or 'y':
+    exit()
